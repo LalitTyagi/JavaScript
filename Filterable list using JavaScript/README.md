@@ -1,4 +1,4 @@
-Filerrable List
+Filterrable List
 
 It is a reactive project using javascript
 
