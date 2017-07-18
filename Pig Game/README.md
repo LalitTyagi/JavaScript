@@ -8,4 +8,5 @@ Rules
 3. If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.
 
 Output
-https://github.com/LalitTyagi/JavaScript/blob/master/Pig%20Game/Output.png
+
+<img src ="Output.png" alt="Output">
