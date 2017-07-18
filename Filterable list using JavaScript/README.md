@@ -8,4 +8,4 @@ I used Materialised css for Frontend UI because we dont have to add class name t
 
 Output
 
-<img src="Output.png" alt="Output">
+<img src="Output.PNG" alt="Output">
