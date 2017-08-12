@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><H1>GAME</H1></p>
+
+<button onclick="myFunction()">Start</button>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+
+<script>
+var x=1000;
+
+
+function myFunction() 
+{
+	var newArray=[];
+    var text;
+
+	x=x-100;
+
+    
+
+    text  ="You have "+ x + " INR";
+
+    newArray[0] = Math.floor((Math.random() * 10) + 0);
+    newArray[1] = Math.floor((Math.random() * 10) + 0);
+    newArray[2] = Math.floor((Math.random() * 10) + 0);
+    newArray.sort();
+    document.getElementById("demo1").innerHTML = newArray;
+
+
+    if((newArray[2] == newArray[1]) && (newArray[1]== newArray[0]))
+        {
+            x=x+1000;
+            document.getElementById("demo2").innerHTML ="You have won 100 INR as all the numbers are same";
+        }
+    else if(newArray[2]-newArray[1]==newArray[1]-newArray[0])
+        {
+            x=x+800;
+            document.getElementById("demo2").innerHTML ="You have won 800 INR as the numbers are in sequence";
+        }
+    else if((newArray[2]%2 == 0) && (newArray[1]%2 == 0) && (newArray[0]%2 == 0))
+        {
+            x=x+300;
+            document.getElementById("demo2").innerHTML ="You have won 300 INR as all the numbers are even";
+        }
+    else if((newArray[2]%2 == 1) && (newArray[1]%2 == 1) && (newArray[0]%2 == 1))
+        {
+            x=x+300;
+            document.getElementById("demo2").innerHTML ="You have won 300 INR as all the numbers are odd";
+        }
+    else
+        {
+            document.getElementById("demo2").innerHTML ="You were not lucky this time";
+        }
+
+    document.getElementById("demo").innerHTML = text;
+
+}
+</script>
+</body>
+</html>
