@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>JavaScript</title>
+		<script type="text/javascript">
+		function addNewElement()
+		{
+			//Create a <li> node
+			var node = document.createElement("LI");
+			//Create a test node and store a value in it what you want to append in the list.
+			var textNode = document.createTextNode("This is a new text node.");
+			//append the test to <li>
+			node.appendChild(textNode);
+			//append <li> to <ul> with id = "list"
+			document.getElementById("list").appendChild(node);
+		}
+		</script>
+	</head>
+	<body>
+		<p>Click the button to append an item to the end of the list.</p>
+		<button onclick="addNewElement()">Click</button>
+		<ul id = "list"></ul>
+	</body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>JavaScript</title>
+		<script>
+		function appendElement() {
+		    var node = document.getElementById("list2").lastChild;
+		    //var node = document.getElementById("list2").firstChild;
+		    document.getElementById("list1").appendChild(node);
+		}
+		</script>
+	</head>
+	<body>
+		<ul id="list1"><li>Coffee</li><li>Tea</li></ul>
+		<ul id="list2"><li>Water</li><li>Milk</li></ul>
+		<p>Click the button to move an item from one list to another.</p>
+		<button onclick="appendElement()">Click</button>
+	</body>
+</html>
