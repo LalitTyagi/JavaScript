@@ -1,4 +1,4 @@
-```Add new Element dynamically```
+```Add new Element dynamically```   
 The appendChild() method appends a node as the last child of a node.
 
 If you want to create a new paragraph, with text, remember to create the text as a Text node which you append to the paragraph, then append the paragraph to the document.
