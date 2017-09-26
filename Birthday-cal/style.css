@@ -1,0 +1,89 @@
+body{
+    background-color: #e6e6e6; 
+}
+.hdr{
+    margin-top: 20px;
+    margin-left: 585px;
+    margin-bottom: -27px;
+}
+.wrapper{
+    margin: 50px;
+}
+.wrapper > div{
+    width: 150px;
+    border: 1px #b380ff;
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 50px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;    
+}
+.wrapper div > p{
+    text-align: right;
+    background-color: #b380ff;
+    padding: 10px;
+    line-height: 15px;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+            
+}
+.dayWrapper{
+    min-height: 150px;
+    background-color: white;
+}
+.textArea{
+    margin-left: 50px;
+    float: left;
+    width: 700;
+    height: 22rem;
+}
+textarea{
+    border-radius:5px;
+}
+input[type=text], select {
+        width: 200;
+        padding: 15px 15px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+}
+.btn {
+    padding: 10px 24px;
+    background-color: #4da6ff;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:5px;
+}
+.buttonWrapper{
+    float: right;
+    margin-right: 375px;
+}
+.spanEle {
+    background-color: orange;
+    display: block;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    position: relative;
+
+.spanEle > span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
