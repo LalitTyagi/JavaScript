@@ -1,4 +1,6 @@
+```
 Birth Cal is a weekday calender
+```
 
 You have a list of people as in JSON format in textarea
 A = 2/15/1978
@@ -11,6 +13,10 @@ A's birthday in 2015 will fall into Sunday.
 B's birthday in 2015 will fall into Saturday.
 
 We put A in Sunday's box and B in Saturday box.
+
+Output
+
+<img src="Screenshot (42).png" alt="Output">
 
 JSON Data shoul be like
 [
