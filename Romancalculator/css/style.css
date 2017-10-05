@@ -1,0 +1,35 @@
+#inputBox{
+    	margin-left: 20px;
+    	margin-bottom: 10px;
+    }
+    #inputOperator{
+    	margin-left: 10px;
+    	width:40px;
+		height:30px;
+		background: #8bceec;
+    }
+    #calculateButton{
+    	margin-left: 72px;
+    	margin-top: 10px;
+    }
+    .calculate{
+    	margin-left: 40%;
+    	margin-top: -245px;
+    }
+    h2,h4{
+    	text-align: center;
+		margin-right: 400px;
+		margin-left: -210px;
+    }
+    #leftside{
+    	margin-left: 140px;
+    	margin-top: 45px;
+    }
+	#rightside{
+		    margin-left: 1070px;
+    		margin-top: -250px;
+	}
+	#rules{
+		    margin-left: 440px;
+    		margin-top: 30px;
+        }

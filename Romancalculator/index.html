@@ -1,0 +1,69 @@
+<html>
+<head>
+	<title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id = "leftside">
+		I - 1<br/>
+	   II - 2<br/>
+	  III - 3<br/>
+	   IV - 4<br/>
+		V - 5<br/>
+		X - 10<br/>
+	   XX - 20<br/>
+	  xxx - 30<br/>
+	   XL - 40<br/>
+		L - 50<br/>
+	   LX - 60<br/>
+	  LXX - 70<br/>
+	</div>
+	<div class="calculate">
+			<h2>Innoventes Technologies</h2>
+			<br/>
+			<h4>Roman number Calculator</h4>
+		<div id="inputBox">
+		  <input type="text" id="txt1" name="text1" placeholder="Enter Roman number">
+		</div>
+		<div id="inputBox">
+		  	<input type="text" id="txt3" name="text3" placeholder="Enter Roman number">
+		</div> 
+		  
+		<div id="inputBox">
+			<input type="text" id="txt2" name="text2" placeholder="Enter operator">
+		</div>
+
+		<p id="calculateButton">
+		  	<button onclick="myFunction()">Calculate</button>
+		</p>
+
+		<p id="demo"></p>
+	</div>
+	<div id = "rightside">
+	 LXXX - 80<br/>
+	   XC - 90<br/>
+		C - 100<br/>
+	   CC - 200<br/>
+	  CCC - 300<br/>
+	   CD - 400<br/>
+		D - 500<br/>
+	   DC - 600<br/>
+	  DCC - 700<br/>
+	 DCCC - 800<br/>
+	   CM - 900<br/>
+		M - 1000<br/>
+	</div>
+	<div id="rules">
+		<h5>Some rules:</h5>
+		M should not be more than 4 consecutive times in a row.<br/>
+		C should not be more than 3 consecutive times in a row.<br/>
+		X should not be more than 3 consecutive times in a row.<br/>
+		I should not be more than 3 consecutive times in a row.<br/>
+		V should not be more than 1 consecutive times in a row.<br/>
+		L should not be more than 1 consecutive times in a row.<br/>
+		D should not be more than 1 consecutive times in a row.<br/>
+	</div>
+
+</body>
+	<script src="js/calculate.js"></script>
+</html>
